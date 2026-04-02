@@ -3,7 +3,7 @@
 #include <utility>
 #include <cstdint>
 
-class IPv4PrefixSet {
+class IPv4PrefixSet {//klasa do przechowywania prefiksów IPv4
 private:
     std::vector<std::pair<uint32_t, uint8_t>> prefix; 
 
