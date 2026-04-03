@@ -50,3 +50,8 @@ public:
 
 
 };
+int main() {
+    IPv4PrefixSet zbior;
+    zbior.add(123456789, 24);
+    return 0;
+}
